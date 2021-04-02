@@ -53,3 +53,28 @@ body{
     transform: translateY(-50%);
     border: 8px solid #151515;
   }
+
+  ol li a {
+    text-decoration: none;
+    transition: 0.1s ease;
+    color: white;
+    padding: 8px;
+    background:  #166c17;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  line-height: 3rem;
+}
+
+a:hover{
+	font-size: 18px;
+}
