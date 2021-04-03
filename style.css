@@ -13,7 +13,7 @@ body{
     padding: 15px;
     max-width: 500px;
     border: 1px solid #636363;
-    margin: 100px auto;
+    margin: 50px auto;
     border-radius: 5px;
     -webkit-box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59);
     box-shadow: 5px 5px 50px 8px rgba(0,0,0,0.59)
@@ -44,7 +44,7 @@ body{
     border-radius: 5px;
   }
   
-  img{
+  header img{
     width: 150px;
     height:150px;
     border-radius: 100%;
@@ -66,6 +66,7 @@ body{
 
 a:-webkit-any-link {
   cursor: pointer;
+  color: white;
 
 }
 
@@ -77,4 +78,23 @@ li {
 
 a:hover{
 	font-size: 18px;
+}
+
+footer nav .redes-sociais{
+  border-top: 1px solid white;
+  padding: 50px 0 0;
+  text-align: center;
+  color: white;
+
+}
+footer nav .redes-sociais li{
+  text-align: center;
+  display: inline-block;
+}
+footer nav .redes-sociais li a img{
+  width: 40px;
+}
+
+footer nav .redes-sociais li a:hover img{
+  transform: scale(1.2) translateY(-10px);
 }
